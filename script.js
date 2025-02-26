@@ -46,14 +46,14 @@ function atualizarTarefas() {
         div2.classList.add('item');
 
         const img1 = document.createElement('img');
-        img1.src = '/imagens/editar.png';
+        img1.src = 'imagens/editar.png';
         img1.classList.add('icon');
         img1.addEventListener("click", function() {
             abrirFormularioEdicao(i)
         })
 
         const img2 = document.createElement('img');
-        img2.src = '/imagens/apagar.png';
+        img2.src = 'imagens/apagar.png';
         img2.classList.add('icon');
 
         img2.addEventListener("click", function() {
