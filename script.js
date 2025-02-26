@@ -53,7 +53,7 @@ function atualizarTarefas() {
         })
 
         const img2 = document.createElement('img');
-        img2.src = 'imagens/apagar.png';
+        img2.src = 'https://carloss0101.github.io/Gerenciador-de-Tarefas/imagens/apagar.png';
         img2.classList.add('icon');
 
         img2.addEventListener("click", function() {
